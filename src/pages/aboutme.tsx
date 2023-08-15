@@ -49,13 +49,14 @@ const AboutMePage: React.FC = () => {
               >
                 
                 <IconButton
-                  as={link.icon}
-                  size="lg"
-                  color={useColorModeValue("black", "white")}
-                  bg={useColorModeValue("white", "black")}
-                  boxShadow="md"
-                  _hover={{ bg: useColorModeValue("gray.200", "gray.700") }}
-                >
+  as={link.icon}
+  size="lg"
+  color={useColorModeValue("black", "white")}
+  bg={useColorModeValue("white", "black")}
+  boxShadow="md"
+  _hover={{ bg: useColorModeValue("gray.200", "gray.700") }}
+  aria-label={link.icon + " profile link"} // Add the aria-label property
+>
                 </IconButton>
               </Link>
             ))}
