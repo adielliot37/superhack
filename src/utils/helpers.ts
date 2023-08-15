@@ -5,7 +5,7 @@ import {
 } from "@ethereum-attestation-service/eas-sdk";
 import { EAS } from "@ethereum-attestation-service/eas-sdk";
 
-const EAS_CONTRACT_ADDRESS = "0x1a5650D0EcbCa349DD84bAFa85790E3e6955eb84";
+const EAS_CONTRACT_ADDRESS = "0x4200000000000000000000000000000000000021";
 const eas = new EAS(EAS_CONTRACT_ADDRESS);
 
 export function generateSignal(
